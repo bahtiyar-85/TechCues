@@ -96,6 +96,9 @@
 .header__items-btn-subscribe:focus {
     outline: 2px solid blueviolet;
 }
+.header__items-btn-subscribe:active {
+    transform: scale(1.01);
+}
 .header__burger {
     display: none;
     width: 24px;
