@@ -54,11 +54,16 @@
     color: #413E52;
     margin: 0 12px;
     cursor: pointer;
+    text-decoration: none;
+}
+.header__list-item:hover {
+    color: #5C5CFF;
 }
 .m_font-size {
     font-size: 15px;
 }
-.header__select::after{
+
+ .header__select::after{
     content: "";
     display: inline-block;
     background: url("../images/icons/arrow-down.svg");

@@ -14,6 +14,11 @@
     width: 30%;
     border: 1px solid #EBEAF2;
     border-radius: 8px;
+    transition: transform .5s;
+}
+.articles__block:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
 }
 .articles__block-img {
     width: 100%;

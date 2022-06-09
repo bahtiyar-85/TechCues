@@ -87,6 +87,13 @@
     line-height: 30px;
     color: #413E52;
     text-decoration: none;
+    display: inline-block;
+    transition: transform .5s;
+}
+.article__link:hover {
+    display: inline-block;
+    transform: scale(1.03);
+    transition: transform .5s;
 }
 .article__link_font-size {
     font-size: 19px;
@@ -102,14 +109,11 @@
     text-align: center;
     color: #5C5CFF;
 }
-.email:hover {
-    opacity: .7;
+.email::placeholder {
+    color: #5C5CFF;
 }
 .email:focus {
     outline: 2px solid blueviolet;
-}
-.email:active {
-    transform: scale(1.01);
 }
 .subscribe {
     width: 100%;
