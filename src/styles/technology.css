@@ -115,7 +115,7 @@
         width: 100%;
     }
     .technology__items-left-img {
-        display: none;
+        left: -5%;
     }
     .technology__title {
         font-size: 28px;

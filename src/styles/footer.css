@@ -27,7 +27,23 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+    position: relative;
 }
+.footer__icon:active {
+    transform: scale(1.1);
+}
+.footer__icon:hover {
+    animation-name: jumping;
+    animation-iteration-count: infinite;
+    animation-duration: 0.45s;
+}
+
+@keyframes jumping {
+    0% {top: 0;}
+    70% {top: -3px;}
+    100% {top: 0;}
+  }
+
 .footer__item-title {
     font-size: 14px;
     line-height: 36px;
@@ -94,6 +110,9 @@
     }
     .footer__bottom {
         padding: 10px 0;
+    }
+    .footer {
+        margin-top: 20vw;
     }
 }
 @media (max-width: 752px) {
