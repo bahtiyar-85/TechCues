@@ -7,6 +7,11 @@
     background: #111131;
     border-radius: 8px;
     display: flex;
+    transition: transform .5s;
+}
+.free__container:hover {
+    transform: scale(1.01);
+    transition: transform .5s;
 }
 .free__contant {
     width: 50%;

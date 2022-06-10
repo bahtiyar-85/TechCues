@@ -42,7 +42,7 @@
     0% {top: 0;}
     70% {top: -3px;}
     100% {top: 0;}
-  }
+}
 
 .footer__item-title {
     font-size: 14px;
@@ -59,6 +59,10 @@
     font-size: 14px;
     line-height: 36px;
     color: #ABABFA;
+    text-decoration: none;
+}
+.footer__list-item:hover {
+    text-decoration: underline;
 }
 .footer__title {
     font-size: 29px;

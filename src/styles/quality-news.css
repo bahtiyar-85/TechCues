@@ -18,6 +18,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform .5s;
+}
+.quality-news__email:hover {
+    transform: scale(1.03);
+    transition: transform .5s;
 }
 .quality-news__img {
     width: 59px;
